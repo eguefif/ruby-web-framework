@@ -1,0 +1,48 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    diff-lcs (1.5.1)
+    rake (13.2.1)
+    rspec (3.13.0)
+      rspec-core (~> 3.13.0)
+      rspec-expectations (~> 3.13.0)
+      rspec-mocks (~> 3.13.0)
+    rspec-core (3.13.0)
+      rspec-support (~> 3.13.0)
+    rspec-expectations (3.13.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-mocks (3.13.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-support (3.13.1)
+    sqlite3 (2.0.3-aarch64-linux-gnu)
+    sqlite3 (2.0.3-aarch64-linux-musl)
+    sqlite3 (2.0.3-arm-linux-gnu)
+    sqlite3 (2.0.3-arm-linux-musl)
+    sqlite3 (2.0.3-arm64-darwin)
+    sqlite3 (2.0.3-x86-linux-gnu)
+    sqlite3 (2.0.3-x86-linux-musl)
+    sqlite3 (2.0.3-x86_64-darwin)
+    sqlite3 (2.0.3-x86_64-linux-gnu)
+    sqlite3 (2.0.3-x86_64-linux-musl)
+
+PLATFORMS
+  aarch64-linux-gnu
+  aarch64-linux-musl
+  arm-linux-gnu
+  arm-linux-musl
+  arm64-darwin
+  x86-linux-gnu
+  x86-linux-musl
+  x86_64-darwin
+  x86_64-linux-gnu
+  x86_64-linux-musl
+
+DEPENDENCIES
+  rake
+  rspec (~> 3.13)
+  sqlite3 (~> 2.0)
+
+BUNDLED WITH
+   2.5.17
